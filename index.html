@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" class = "scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog/Portfilo</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/stylesheets/screen.css" />
+  </head>
+
+  <body class="bg-white">
+    <div class="main-wrapper">
+      <nav
+        class="flex items-center justify-between flex-wrap lg:pl-0 p-6 max-w-6xl mx-auto border-b border-gray-300"
+      >
+        <div class="flex items mr-6">
+          <a href="/" class="font-semibold text-xl tracking-tight">Blog</a>
+        </div>
+        <div
+          class="w-full lg:block flex-grow lg:flex lg:items-center lg:w-auto hidden"
+          id="MainMenu"
+        >
+          <div
+            class="text-normal font-normal text-gray-800 lg:flex-grow lg:ml-4 ml-0"
+          >
+          <a
+          href="#main"
+          class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0 mr-4"
+        >
+          Main
+        </a>
+            <a
+              href="#project"
+              class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0 mr-4"
+            >
+              Projects
+            </a>
+            <a
+              href="#link"
+              class="hover:text-black px-2 block mt-4 lg:inline-block lg:mt-0 mr-4"
+            >
+              Links
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <section id="main" class="my-8">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex flex-wrap">
+            <div class=" w-full">
+              <div
+                class="lg:m-0 m-3 first-featuredbg-cover relative bg-cover overflow-hidden rounded shadow-lg"
+                style="
+                  background-image: url(/img/main.jpg);
+                  height: 600px;
+                "
+              >
+                <div
+                  class="transition-3 overlay-500 lg:p-10 p-3 w-full h-full text-white"
+                >
+                  <div class="text-center text-4xl font-semibold text-yellow-400 info text-sm">
+                    웹 <span class="font-semibold">프로그래밍</span> 
+                  </div>
+                  <h1 class="text-center leading-snug text-xl font-bold my-4">
+Web Design & Web Programming
+                  </h1>
+                  <p class="text-center text-xl font-bold leading-normal font-light">
+HTML5, CSS, JavaScript, Bootstrap
+                  </p>
+                  <p class="text-center text-xl font-bold leading-normal font-light">
+                    BackEnd Developer
+                                      </p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 w-full">
+              <div class="feature-list p-3 pt-0 lg:px-8">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="project" class="lg:my-12 m-6">
+        <div class="max-w-6xl mx-auto">
+          <header class="categories-header mb-8 flex">
+            <h1 class="text-2xl font-semibold w-1/2">Projects</h1>
+
+          </header>
+
+          <div class="flex flex-wrap text-white categories text-gray-800">
+            <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+              <div
+                onclick="window.location='https://github.com/honk0128/Time-Course'"
+                class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover"
+                style="background-image: url(img/project1.png)"
+              >
+                <h3 class="text-black text-center font-semibold text-sm absolute">
+                  Time Course
+                </h3>
+              </div>
+            </div>
+
+            <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+              <div
+                onclick="window.location='https://github.com/honk0128/To-do-list'"
+                class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover"
+                style="background-image: url(img/project2.png)"
+              >
+                <h3 class="text-black text-center font-semibold text-sm absolute">
+                  To-Do-List
+                </h3>
+              </div>
+            </div>
+
+            <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+              <div
+                onclick="window.location='https://github.com/honk0128/nextshop'"
+                class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover"
+                style="background-image: url(img/project4.png)"
+              >
+                <h3 class="text-black font-semibold text-sm absolute">
+NextShop
+                </h3>
+              </div>
+            </div>
+
+            <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+              <div
+                onclick="window.location='category-page.html'"
+                class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover"
+                style="background-image: url(img/project5.png)"
+              >
+                <h3 class="text-black font-semibold text-sm absolute">
+                  CycleSc
+                </h3>
+              </div>
+            </div>
+            
+            <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+              <div
+                onclick="window.location='category-page.html'"
+                class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover"
+                style="background-image: url(img/project3.png)"
+              >
+                <h3 class="text-black font-semibold text-sm absolute">
+                  WorkSpace
+                </h3>
+              </div>
+            </div>
+
+            <div class="lg:w-1/6 md:w-1/2 w-full lg:mb-0 mb-16">
+              <div
+                onclick="window.location='https://github.com/honk0128/Portfolio'"
+                class="cursor-pointer category-card hover:shadow-2xl transition-3 relative h-64 mx-1 inner rounded shadow-lg p-3 bg-cover"
+                style="background-image: url(img/project6.png)"
+              >
+                <h3 class="title text-gray-900 font-semibold text-lg absolute">
+                  Portfolio
+                </h3>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section id="link" class="lg:my-12 lg:mt-24 m-6">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex flex-wrap categories">
+            <div class="lg:w-2/3 w-full">
+              <div class="most-recent-wrapper">
+                <div class="flex flex-wrap text-gray-900 mb-6">
+                  <h3 class="text-2xl font-semibold">Links</h3>
+                </div>
+
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                        <p 
+                          >Time Course</
+                        >
+                      </h2>
+
+
+                  </div>
+
+                </div>
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                      </h2>
+                      <p class="text-gray-600 text-sm">
+중부대학교 수강신청 사이트를 리뉴얼 한 사이트 입니다.
+                      </p>
+                      <a href="https://github.com/honk0128/Time-Course" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+                        <i class="fa fa-github fa-2x"></i>
+                        Github
+                      </a>
+                    </div>
+
+                  </div>
+
+
+                </div>
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                        <p 
+                          >To DO List</
+                        >
+                      </h2>
+
+
+                  </div>
+
+                </div>
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                      </h2>
+                      <p class="text-gray-600 text-sm">
+달력기능과 SNS 1:1 채팅을 종합하여 만든 스케줄러입니다.
+                      </p>
+                      <a href="https://github.com/honk0128/To-do-list" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+                        <i class="fa fa-github fa-2x"></i>
+                        Github
+                      </a>
+                    </div>
+
+                  </div>
+
+
+                </div>
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                        <p 
+                          >NextShop</
+                        >
+                      </h2>
+
+
+                  </div>
+
+                </div>
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                      </h2>
+                      <p class="text-gray-600 text-sm">
+3학년 2학기 수업 시간에 만든 쇼핑몰 사이트 입니다.
+                      </p>
+                      <a href="https://github.com/honk0128/nextshop" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+                        <i class="fa fa-github fa-2x"></i>
+                        Github
+                      </a>
+                      <a href="https://nextshop1.vercel.app/" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+                        <i class="fas fa-globe fa-2x"></i>
+                        Demo
+                      </a>
+                    </div>
+
+                  </div>
+
+
+                </div>
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                        <p 
+                          >CycleSc</p>
+                      </h2>
+
+
+                  </div>
+
+                </div>
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                      </h2>
+                      <p class="text-gray-600 text-sm">
+                        자전거 입문자들을 위한 자전거 추천사이트입니다.
+                      </p>
+                      <a href="https://github.com/honk0128/Bicycle" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+                        <i class="fa fa-github fa-2x"></i>
+                        Github
+                      </a>
+                      <a href="https://bicycle-smoky.vercel.app/" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+                        <i class="fas fa-globe fa-2x"></i>
+                        Demo
+                      </a>
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                        <p 
+                          >Portfolio</p>
+                      </h2>
+
+
+                  </div>
+
+                </div>
+                <div class="flex flex-wrap most-recent-item pr-5 mb-10">
+                  <div class="sm:w-2/3 w-full">
+                    <div class="most-recent-item-info">
+
+                      <h2
+                        class="text-normal font-semibold text-gray-900 leading-tight mb-3 mt-1"
+                      >
+                      </h2>
+                      <p class="text-gray-600 text-sm">
+                        3학년 2학기에 제작한 개인 포트폴리오 사이트입니다.
+                      </p>
+                      <a href="https://github.com/honk0128/Portfolio" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+                        <i class="fa fa-github fa-2x"></i>
+                        Github
+                      </a>
+                      <a href="https://portfolio-honk0128.vercel.app/" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+                        <i class="fas fa-globe fa-2x"></i>
+                        Demo
+                      </a>
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="main-footer" class="">
+        <div class="max-w-6xl mx-auto clearfix border-t border-gray-200 py-6">
+          <div class="flex flex-wrap">
+            <div class=" text-center">
+              <p class="text-sm text-gray-700">
+                <p>Copyright &copy; 2023, 중부대학교 정보보호학과 91813298 홍승현</p>
+
+              </p>
+            </div>
+            <div class="lg:w-1/3 w-full lg:m-0 m-6 mb-0">
+              <ul class="text-center">
+                <li class="inline-block">
+                  <a
+                    href="https://github.com/honk0128"
+                    class="inline-block text-lg px-2 text-gray-700 hover:text-black"
+                  >
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+                <li class="inline-block">
+                  <a
+                    href="#"
+                    class="inline-block text-lg px-2 text-gray-700 hover:text-black"
+                  >
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="inline-block">
+                  <a
+                    href="#"
+                    class="inline-block text-lg px-2 text-gray-700 hover:text-black"
+                  >
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="inline-block">
+                  <a
+                    href="#"
+                    class="inline-block text-lg px-2 text-gray-700 hover:text-black"
+                  >
+                    <i class="fa fa-snapchat"></i>
+                  </a>
+                </li>
+                <li class="inline-block">
+                  <a
+                    href="#"
+                    class="inline-block text-lg px-2 text-gray-700 hover:text-black"
+                  >
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+  </body>
+</html>
